@@ -1,0 +1,116 @@
+.upperAreadiv{
+    background: #171E27;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading-knowledge{
+    color: #FFF;
+    width: 40%;
+text-align: center;
+font-family: Gilroy;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 20px;
+}
+.subheading-knowledge{
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+margin: 20px;
+line-height: normal;
+}
+.img-phone{
+    
+}
+.upperAreadiv{
+    padding: 50px;
+}
+.featuresdiv{
+    background: repeating-linear-gradient(0deg, transparent, transparent 29px, #e4e3e3 20px, #f3f2f2 30px), repeating-linear-gradient(90deg, transparent, transparent 29px, #e4e3e3 20px, #f3f2f2 30px),
+    radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 88%, rgba(255,255,255,1) 100%);
+    background-size: 50px 50px;
+    
+    
+height: 300px;
+display: flex;
+padding: 175px ;
+
+}
+
+.feature-get-app h3{
+    color: #28B570;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+background-color: white;
+font-weight: 400;
+line-height: normal;
+}
+.feature-get-app h2{
+    color: #000;
+    background-color: white;
+    font-family: Gilroy;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 123.81% */
+    width: 450px;
+}
+.feature-get-app p{
+    color: #777;
+    background-color: white;
+font-family: Gilroy;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px; /* 140% */
+width: 450px;
+}
+.lower-get-app-box{
+    display: flex;
+    gap: 22px;
+ 
+    align-items: center;
+}
+.get-app-button{
+padding: 12px 10px 12px 10px;
+border-radius: 35px;
+background: linear-gradient(99deg, #FEC826 0%, #F3A61D 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+color: #171E27;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.learn-more{
+    color: #171E27;
+    background-color: white;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+}
+#C-bridge >img{
+    width: 75px;
+    height: 50px;
+    object-fit: contain;
+
+}
+#C-bridge{
+    border: 1px solid blue;
+    display: flex;
+    
+    
+}
