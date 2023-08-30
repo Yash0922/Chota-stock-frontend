@@ -3,6 +3,9 @@ import "../Style/Home.css"
 import CurveImg  from "../Logo/imagecurve.svg"
 import threeDot from "../Logo/Threediv.svg"
 import midDiv from "../Logo/somediv.svg"
+import stock  from "../Logo/StockInvesting.svg"
+import partner from "../Logo/partners.svg"
+import reviever from "../Logo/Reviewer.svg"
 function Home(props) {
     return (
         <div >
@@ -52,6 +55,15 @@ Investing & Trading
             </div>
             <div className="midDiv">
                 <img src={midDiv} alt="" />
+            </div>
+            <div className='stockInvestingDiv'>
+                <img src={stock} alt="" />
+            </div>
+            <div className='PartnerImg'>
+                <img src={partner} alt="" />
+            </div>
+            <div className="reviewerImg">
+                <img src={reviever} alt="" />
             </div>
           
         </div>
