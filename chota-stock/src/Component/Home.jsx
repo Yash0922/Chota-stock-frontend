@@ -1,6 +1,8 @@
 import React from 'react';
 import "../Style/Home.css"
 import CurveImg  from "../Logo/imagecurve.svg"
+import threeDot from "../Logo/Threediv.svg"
+import midDiv from "../Logo/somediv.svg"
 function Home(props) {
     return (
         <div >
@@ -43,11 +45,13 @@ Investing & Trading
  <img  className='i1'src={CurveImg} alt="" />
                     </div>
                    <div className="threeDbox">
-                    <img src="" alt="" />
+                    <img src={threeDot} alt="" />
                    </div>
-                   <div className="threeDbox"></div>
-                   <div className="threeDbox"></div>
+                  
                 </div>
+            </div>
+            <div className="midDiv">
+                <img src={midDiv} alt="" />
             </div>
           
         </div>

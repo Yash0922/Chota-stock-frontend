@@ -115,3 +115,19 @@ text-decoration-line: underline;
     
     
 }
+.threeDbox img{
+    width: 60%;
+    z-index: 1;
+    position: relative;
+    bottom: 129px;
+    left: 15%;
+}
+.midDiv{
+    display: flex;
+    justify-content: center;
+    margin: 75px 25px 25px 25px;
+    
+}
+.midDiv img{
+ width: 80%;
+}
